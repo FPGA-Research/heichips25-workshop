@@ -1,0 +1,6 @@
+# LibreLane configuration file
+
+DESIGN_NAME: counter
+VERILOG_FILES: dir::counter.sv
+CLOCK_PORT: clk_i
+CLOCK_PERIOD: 10 # 10ns = 100MHz
