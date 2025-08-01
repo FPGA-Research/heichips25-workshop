@@ -1,0 +1,12 @@
+# LibreLane configuration file
+
+DESIGN_NAME: tt_um_example
+VERILOG_FILES: dir::src/*.sv
+CLOCK_PORT: clk
+CLOCK_PERIOD: 10 # 10ns = 100MHz
+
+# Reduce wasted space
+TOP_MARGIN_MULT: 1
+BOTTOM_MARGIN_MULT: 1
+LEFT_MARGIN_MULT: 6
+RIGHT_MARGIN_MULT: 6

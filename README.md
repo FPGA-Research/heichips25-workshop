@@ -20,7 +20,7 @@ The Nix flake of this repository provides the `dev` branch of LibreLane.
 ## Exercises
 
 - [Exercise 1](exercise_1/README.md): Let's Implement a Counter
-- [Exercise 2](exercise_2/README.md): Changing Design Variables
+- [Exercise 2](exercise_2/README.md): All About Configuration Variables
 - [Exercise 3](exercise_3/README.md): Controlling the Flow
 - [Exercise 4](exercise_4/README.md): Using Macros
 - [Exercise 5](exercise_5/README.md): LibreLane API
