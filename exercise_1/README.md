@@ -14,9 +14,7 @@ This command invokes LibreLane with the ihp-sg13g2 PDK and the `config.yaml` con
 
 > [!TIP]
 > PDK stands for Process Design Kit and contains everything that we need for chip design.
-> Normally, PDKs are only available under a Non-Disclosure Agreement (NDA), however thankfully there are open sourde PDKs that we can use for chip design.
-
-[](https://github.com/IHP-GmbH/IHP-Open-PDK)
+> Normally, PDKs are only available under a Non-Disclosure Agreement (NDA), however thankfully there are open source PDKs that we can use for chip design.
 
 We choose ihp-sg13g2 for HeiChips as the chip is going to be designed with the [IHP Open PDK](https://github.com/IHP-GmbH/IHP-Open-PDK) (ihp-sg13g2) to be manufactured using the [SG13G2](https://www.ihp-microelectronics.com/de/leistungen/forschungs-und-prototyping-service/mpw-prototyping-service/sigec-bicmos-technologien) process.
 
@@ -104,6 +102,9 @@ You can also view the timing paths of your design, open the "Timing Report" if n
 Click on "Update" and you can select a path:
 
 ![Timing report](img/openroad_gui_3.png)
+
+> [!TIP]
+> If you want to export your design in high resolution on a white background, just set "Display Control" → "Misc" → "Background" to white and run `save_image image.png -width 4096` in "Scripting". For the clock tree you can use: `save_clocktree_image`.
 
 ### 1.2.2 KLayout
 
