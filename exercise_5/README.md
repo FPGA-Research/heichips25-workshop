@@ -1,8 +1,6 @@
 # Exercise 5 - The LibreLane API
 
-Hard macros are pre-implemented IPs with a dedicated function that you can use in your design. You can implement your own macros, or use the ones provided by the PDK such as IO cells, SRAM macros, analog IPs maybe, etc.
-
-This exercise shows you how to create your own macro and subsequently use it in another design.
+LibreLane gives you access to its Python API, which allows you to programmatically configure flows and steps as well as create custom flows and steps.
 
 ## 5.1 - Using the API
 
