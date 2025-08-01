@@ -1,0 +1,11 @@
+DESIGN_NAME: shift_register
+VERILOG_FILES: dir::shift_register.sv
+CLOCK_PORT: clk_i
+CLOCK_PERIOD: 10 # 10ns = 100 MHz
+FP_SIZING: absolute
+DIE_AREA: [0, 0, 250, 125]
+PL_TARGET_DENSITY_PCT: 60
+
+# We need to allow the same number of hold buffers as there are instances (D-FFs)
+GRT_RESIZER_HOLD_MAX_BUFFER_PCT: 100
+PL_RESIZER_HOLD_MAX_BUFFER_PCT: 100
