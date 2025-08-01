@@ -1,0 +1,16 @@
+# LibreLane configuration file
+
+DESIGN_NAME: counter_8bit
+VERILOG_FILES: dir::counter_8bit.sv
+CLOCK_PORT: clk_i
+CLOCK_PERIOD: 10 # 10ns = 100MHz
+
+FP_SIZING: absolute
+DIE_AREA: [0, 0, 50, 50]
+PL_TARGET_DENSITY_PCT: 60
+
+# Reduce wasted space
+TOP_MARGIN_MULT: 1
+BOTTOM_MARGIN_MULT: 1
+LEFT_MARGIN_MULT: 6
+RIGHT_MARGIN_MULT: 6

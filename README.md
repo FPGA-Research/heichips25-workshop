@@ -4,7 +4,8 @@ This is the repository for the LibreLane workshop during HeiChips 2025.
 
 You will learn how to use and configure LibreLane, debug your design, integrate macros, and implement a full chip.
 
-LibreLane documentation: https://librelane.readthedocs.io
+- LibreLane repository: https://github.com/librelane/librelane
+- LibreLane documentation: https://librelane.readthedocs.io
 
 ## Prerequisites
 

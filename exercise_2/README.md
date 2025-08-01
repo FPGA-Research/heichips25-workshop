@@ -81,7 +81,7 @@ Run the flow, and the result should look like this (maybe you have a different d
 ### 2.3 - Use a DEF Template
 
 Sometimes you need a fixed die size with a predetermined pin placement.
-This the case for projects on [Tiny Tapeout](https://tinytapeout.com/). If you haven't noticed, `design.sv` uses the same interface as for Tiny Tapeout projects.
+This is the case for projects on [Tiny Tapeout](https://tinytapeout.com/). If you haven't noticed, `design.sv` uses the same interface as for Tiny Tapeout projects.
 
 So how do we achieve this? Using a DEF template.
 
