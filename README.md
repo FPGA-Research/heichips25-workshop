@@ -1,4 +1,4 @@
-# HeiCHips 2025 LibreLane Workshop
+# HeiChips 2025 LibreLane Workshop
 
 This is the repository for the LibreLane workshop during HeiChips 2025.
 
