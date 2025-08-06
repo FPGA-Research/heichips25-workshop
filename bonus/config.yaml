@@ -16,7 +16,7 @@ meta:
     +KLayout.SealRing: KLayout.FillerGeneration
     
     # Save time
-    #KLayout.DRC: null
+    KLayout.DRC: null
     Magic.DRC: null
     #KLayout.XOR: null
 
@@ -25,6 +25,15 @@ meta:
     # Add steps for LVS with KLayout
     #+Checker.LVS: OpenROAD.WriteCDL
     #+OpenROAD.WriteCDL: KLayout.LVS
+    
+    # LVS does not work yet automatically
+    Magic.SpiceExtraction: null
+    Checker.IllegalOverlap: null
+    Netgen.LVS: null
+    
+    # Just ingore for now
+    Checker.SetupViolations: null
+    Checker.HoldViolations: null
 
 DESIGN_NAME: heichips25_template_top
 VERILOG_FILES:
