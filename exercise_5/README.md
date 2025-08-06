@@ -6,13 +6,17 @@ LibreLane gives you access to its Python API, which allows you to programmatical
 
 How do we use the API? As always, there is some documentation: [`librelane` API](https://librelane.readthedocs.io/en/latest/reference/api/index.html).
 
-Quite a lot at once! Let's start with something prepared.
+That's quite a lot at once! Let's start with something already prepared.
 
 Take a look at `flow.py` in this exercise. It is a Python script that uses the LibreLane API to start the Classic flow - just like we did before!
 
-However, now you can programmatically set the configuration variables, start several flows in parallel, and 
+However, you can do much more! For example you can programmatically set the configuration variables, start flows in parallel, and postprocess the results.
 
-And all you need to do to start the flow is to run the script:
+> [!IMPORTANT]
+> Before you start the flow, you need to explicitly enable the PDK so that the script can find it.
+> Enable the latest version of the PDK using ciel: `ciel enable --pdk-family ihp-sg13g2 cb7daaa8901016cf7c5d272dfa322c41f024931f`
+
+Now all you need to do to start the flow is to run the script:
 
 ```
 python3 flow.py
