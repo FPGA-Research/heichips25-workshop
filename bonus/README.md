@@ -13,7 +13,7 @@ We also need a custom branch of the IHP Open PDK. Again, we use the branch [leo/
 Choose a destination folder and clone the PDK:
 
 ```
-git clone git@github.com:mole99/IHP-Open-PDK.git --single-branch -b leo/padring --recurse-submodules
+git clone https://github.com/mole99/IHP-Open-PDK.git --single-branch -b leo/padring --recurse-submodules
 ```
 
 Before we start LibreLane, we need to export `PDK_ROOT` and `PDK`.
