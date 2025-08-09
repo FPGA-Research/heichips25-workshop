@@ -11,17 +11,17 @@ from librelane.logging import info
 def main():
 
     # Source files
-	verilog_files = [
-		"counter.sv"
-	]
-	
+    verilog_files = [
+        "counter.sv"
+    ]
+    
     # Flow configuration
-	flow_cfg = {
-		# Design
-		"DESIGN_NAME"           : "counter",
+    flow_cfg = {
+        # Design
+        "DESIGN_NAME"           : "counter",
 
-		# Sources
-		"VERILOG_FILES"         : verilog_files,
+        # Sources
+        "VERILOG_FILES"         : verilog_files,
 
         # Clock
         "CLOCK_PORT"            : "clk_i",
@@ -31,16 +31,16 @@ def main():
         "FP_SIZING"             : "absolute",
         "DIE_AREA"              : [0, 0, 75, 75],
         "PL_TARGET_DENSITY_PCT" : 60,
-	}
+    }
 
-	flow = Classic(
-		flow_cfg,
-		design_dir = ".",
-		pdk_root   = None,
-		pdk        = "ihp-sg13g2",
-	)
+    flow = Classic(
+        flow_cfg,
+        design_dir = ".",
+        pdk_root   = None,
+        pdk        = "ihp-sg13g2",
+    )
 
-	flow.start()
+    flow.start()
 
 if __name__ == "__main__":
     main()
